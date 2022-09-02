@@ -10,8 +10,27 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+.img-txt{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 
+.img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+.text{
+  text-align: center;
+  height: 45px;
+  width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;

@@ -18,10 +18,23 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
 }
 
+.bloco{
+  align-self: center;
+  width: 380px;
+}
+.header{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -51,6 +64,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 button.continue {
